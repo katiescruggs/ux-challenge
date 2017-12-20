@@ -9,6 +9,7 @@ Sunset Orange #FE5F55
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -19,13 +20,40 @@ header {
   min-height: 20vh;
 }
 
+
 .button-container {
   display: flex;
   flex-wrap: wrap;
+  width: 517px;
+  justify-content: space-around;
+
 }
 
 .header-btn {
   font-size: 20px;
   height: 75px;
   width: 220px;
+  border: none;
+  background-color: #b8d8d8;
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.header-btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.goals img {
+  position: relative;
+  top: 3px;
+}
+
+.white-bg {
+  padding: 5px;
+  width: 35px;
+  background-color: #fff;
+  border-radius: 30px;
+  margin: 0 15px;
 }
