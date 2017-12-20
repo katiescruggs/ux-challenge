@@ -13,7 +13,7 @@ Sunset Orange #FE5F55
 }
 
 .goals-section h2 {
-  font-size: 67px;
+  font-size: 60px;
   text-align: center;
   margin-bottom: 12px;
   color: #fff;
@@ -169,6 +169,7 @@ header {
   }
 }
 
+
 @media screen and (max-width: 400px) {
   header {
     background-position: 28% 100%;
@@ -190,7 +191,7 @@ header {
 .log-section .add-workout-btn {
   display: flex;
   align-items: center;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -214,11 +215,11 @@ header {
 
 .log{
   background-color: white;
-  font-size: 26px;
+  font-size: 22px;
   border: 1px solid #4F6367;
   margin: 15px;
-  padding: 20px 10px;
-  width: 500px;
+  padding: 10px;
+  width: 400px;
 }
 
 .log-wrapper {
@@ -244,7 +245,7 @@ header {
 .calendar-section h2,
 .log-section h2 {
   color: white;
-  font-size: 67px;
+  font-size: 60px;
   padding: 20px;
   text-align: center;
 }
@@ -252,6 +253,8 @@ header {
 .day-holder {
   display: flex;
   flex-wrap: wrap;
+  width: 1330px;
+  margin: auto;
 }
 
 .calendar-day {
@@ -278,5 +281,47 @@ header {
   position: absolute;
   top: 10px;
   left: 20px;
+}
+
+@media screen and (max-width: 450px) {
+  .log {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1329px) {
+  .day-holder {
+    width: 1140px;
+  }
+}
+
+@media screen and (max-width: 1139px) {
+  .day-holder {
+    width: 950px;
+  }
+}
+
+@media screen and (max-width: 949px) {
+  .day-holder {
+    width: 760px;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  .day-holder {
+    width: 570px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .day-holder {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  .day-holder {
+    width: 190px;
+  }
 }
 
