@@ -59,13 +59,68 @@ header {
 }
 
 
+.log-section {
+  background-color: #FE5F55;
+}
+
+.log-section .add-workout-btn {
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.log-section h3 {
+  color: #FE5F55;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.log-section img {
+  margin-right: 20px;
+  width: 50px;
+}
+
+.log-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.log{
+  background-color: white;
+  font-size: 26px;
+  border: 1px solid #4F6367;
+  margin: 15px;
+  padding: 20px 10px;
+  width: 500px;
+}
+
+.log-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.log .left {
+  text-align: right;
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+.log .right {
+  margin-left: 40px;
+  text-align: left;
+}
+
 .calendar-section {
   background-color: #4F6367;
 }
 
-.calendar-section h2 {
+.calendar-section h2,
+.log-section h2 {
   color: white;
-  font-size: 75px;
+  font-size: 67px;
   padding: 20px;
   text-align: center;
 }
