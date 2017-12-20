@@ -57,3 +57,46 @@ header {
   border-radius: 30px;
   margin: 0 15px;
 }
+
+
+.calendar-section {
+  background-color: #4F6367;
+}
+
+.calendar-section h2 {
+  color: white;
+  font-size: 75px;
+  padding: 20px;
+  text-align: center;
+}
+
+.day-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calendar-day {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  margin: 20px;
+  width: 150px;
+  position: relative;
+}
+
+.calendar-day img {
+  width: 60px;
+}
+
+.calendar-day .jump {
+  width: 85px;
+}
+
+.calendar-day .num {
+  font-size: 22px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
