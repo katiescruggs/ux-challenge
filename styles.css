@@ -35,7 +35,7 @@ header {
   background-size: cover;
   background-position: 50% 100%;
   background-repeat: no-repeat;
-  min-height: 71vh;
+  height: 595px;
 }
 
 .button-container {
