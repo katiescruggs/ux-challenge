@@ -12,21 +12,40 @@ Sunset Orange #FE5F55
   font-family: 'Raleway', sans-serif;
 }
 
+.goals-section h2 {
+  font-size: 67px;
+  text-align: center;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.goals-section p {
+  font-size: 22px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 12px;
+}
+
 header {
   background-image: url('./assets/mainpic.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: 50% 100%;
   background-repeat: no-repeat;
-  min-height: 20vh;
+  min-height: 71vh;
 }
-
 
 .button-container {
   display: flex;
   flex-wrap: wrap;
   width: 517px;
   justify-content: space-around;
-
+  position: absolute;
+  right: 100px;
+  top: 300px;
 }
 
 .header-btn {
@@ -45,9 +64,17 @@ header {
   height: 30px;
 }
 
-.goals img {
+.header-goals img {
   position: relative;
   top: 3px;
+}
+
+.tips {
+  background-color: #FE5F55;
+}
+
+.calendar {
+  background-color: #7A9E9F;
 }
 
 .white-bg {
@@ -58,6 +85,103 @@ header {
   margin: 0 15px;
 }
 
+.goals-section {
+  background-color: #b8d8d8; 
+  padding-top: 9px;
+  padding-bottom: 62px;
+  position: relative;
+}
+
+.goals-blocks {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.goals {
+  background-color: #fff;
+  width: 175px;
+  height: 175px;
+}
+
+.goals img {
+  width: 84px;
+  margin: 10px auto;
+  display: block;
+}
+
+.add-goals-btn {
+  position: absolute;
+  right: 40px;
+  bottom: 10px;
+  background: none;
+  border: none;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-goals-btn img {
+  width: 30px;
+}
+
+@media screen and (max-width: 1050px) {
+  .goals-blocks {
+    width: 436px;
+    flex-wrap: wrap;
+  }
+
+  .move, .lose {
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  header {
+    background-position: 50% 75%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .button-container {
+    width: 220px;
+    position: static;
+    margin: auto;
+    position: absolute;
+    top: 252px;
+    left: calc(50% - 110px);
+  }
+
+  .header-btn {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .goals-blocks {
+    width: 175px;
+  }
+
+  .goals {
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    background-position: 28% 100%;
+    background-size: 340%;
+  }
+};
+
+@media screen and (max-width: 330px) {
+  header {
+    background-position: 28% 100%;
+    background-size: 447%;
+  }
+}
 
 .log-section {
   background-color: #FE5F55;
@@ -155,3 +279,4 @@ header {
   top: 10px;
   left: 20px;
 }
+
